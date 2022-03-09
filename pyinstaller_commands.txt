@@ -1,0 +1,14 @@
+pyinstaller --onefile -i icon_sIF_icon.ico profile_classification.py
+pyinstaller --onefile -i icon_sIF_icon.ico ProfileMod.py
+pyinstaller --onedir -w -i icon_sIF_icon.ico BLOCK_GUI.py
+pyinstaller --onefile -w -i icon_sIF_icon.ico BLOCK_GUI.py
+pyinstaller --onefile -w -i automation-icon-19.ico AutoSegParameters.py
+pyinstaller --onefile -w -i automation-icon-19.ico cvs2excel.py
+pyinstaller --onefile -w -i automation-icon-19.ico VentOmit.py
+
+
+pyinstaller --onefile -i icon_sIF_icon.ico printsys.py
+pyinstaller --onefile -i icon_sIF_icon.ico update.py
+
+
+pyinstaller --onedir -w -i gps_icon_icon.ico GPS-Sidewall.py
